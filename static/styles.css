@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+select:hover, button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+#about {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.8; /* Увеличение межстрочного интервала для улучшения читаемости */
+    color: #333; /* Немного темнее, чтобы улучшить контраст текста на светлом фоне */
+    font-size: 16px; /* Немного увеличиваем размер шрифта */
+}
+
+#about h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px; /* Добавляем нижний отступ для визуального разделения заголовка и текста */
+    font-size: 24px; /* Увеличиваем размер шрифта для заголовков */
+}
+
+#about p, #about ul {
+    text-align: justify; /* Выравнивание текста по ширине для эстетики */
+    padding: 0 20px; /* Добавляем отступы сбоку для улучшения читаемости на широких экранах */
+}
+
+#about li {
+    margin-bottom: 10px; /* Добавляем нижний отступ для каждого элемента списка */
+}
+
+/* Улучшение читаемости списков */
+#about ul {
+    padding-left: 20px; /* Добавляем левый отступ для отделения списка от края контейнера */
+    list-style-type: disc; /* Используем стандартные маркеры для списка */
+}
+
